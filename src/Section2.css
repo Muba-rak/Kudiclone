@@ -1,0 +1,116 @@
+@media (min-width: 320px) { 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section2{
+        background-color: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .section2 h1{
+        color: black;
+        margin: auto;
+    }
+    .All{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    .text-sec{
+        width: 300px;
+        height: 400px;
+    }
+    .text-sec h5{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .text-sec p{
+        margin-top: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .smalldiv{
+        border-color: #1E65FF;
+        border-style: solid;
+        border-width: 1px;
+        height: 228px;
+        /* margin-top: 30px; */
+    }
+
+ }
+
+
+@media (min-width: 375px) { 
+    .All{
+        margin-left: 40px;
+    }
+ }
+
+
+@media (min-width: 425px) { 
+    .All{
+        margin-left: 65px;
+    }
+    .section2 h1{
+        font-size: 25px;
+    }
+    
+   
+ }
+
+@media (min-width: 768px) { 
+    .All{
+        margin-left: 65px;
+    }
+    .text-sec{
+        margin: auto;
+        width: 426px;
+        height: 416px;
+    }
+
+ }
+
+
+@media (min-width: 1024px) { 
+    .section2{
+        background-color: white;
+        text-align: center;
+        margin-top: 40px;
+        height: 600px;
+    }
+    .section2 h1{
+        font-size: 32px;
+    }
+    .All{
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: space-evenly;
+    }
+    .text-sec{
+        width: 426px;
+        height: 416px;
+    }
+    .text-sec h5{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .text-sec p{
+        margin-top: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .smalldiv{
+        border-color: #1E65FF;
+        border-style: solid;
+        border-width: 1px;
+        height: 228px;
+        margin-top: 30px;
+    }
+ }
+
+
+@media (min-width: 1281px) {  }
+

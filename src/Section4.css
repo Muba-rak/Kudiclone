@@ -1,0 +1,105 @@
+@media (min-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section4{
+        background-color: white;
+        text-align: center;
+    }
+    .approach{
+        margin-top: 10px;
+    }
+    .approach h1{
+        font-size: 32px;
+    }
+    .approach h4{
+        font-size: 18px;
+    }
+    .lady_img img{
+       display: none;
+    }
+    .grid-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-grid4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    .maintextside{
+        margin-top: 10px;
+        margin-left: 5px;
+        text-align: left;
+    }
+    .maintextside_p{
+        font-size: 16px;
+    }
+    .boxdiv{
+        width: 254px;
+        height: 88px;
+        margin-top: 30px;
+        margin-left: 15px;
+        border-left: 1px solid #1F39E0;
+        text-align: left;
+        padding-left: 8px;
+    
+    }
+
+ }
+@media (min-width:375px){ }
+@media (min-width:425px){ }
+@media (min-width: 480px) {  }
+@media (min-width: 600px) {  }
+@media (min-width: 801px) {  }
+@media (min-width: 1024px) {
+    .approach{
+        margin-top: 50px;
+    }
+    .approach h1{
+        font-size: 42px;
+    }
+    .approach h4{
+        font-size: 28px;
+    }
+    .text-grid4{
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .maintextside{
+        height: 504px;
+        width: 774px;
+        margin-top: 60px;
+        margin-left: 55px;
+        text-align: left;
+    }
+    .maintextside_p{
+        font-size: 18px;
+    }
+    .grid-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .lady_img img{
+        display: flex;
+        width: 463px;
+        height: 626px;
+    }
+    .maintextside_p{
+        font-size: 24px;
+    }
+    .boxdiv{
+        width: 254px;
+        height: 88px;
+        margin-top: 100px;
+        margin-left: 15px;
+        border-left: 1px solid #1F39E0;
+        text-align: left;
+        padding-left: 8px;
+    }
+ }

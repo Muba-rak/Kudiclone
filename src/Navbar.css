@@ -1,0 +1,168 @@
+@media (min-width: 320px) { 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Navbar{
+        background-color: #1F39E0;
+        height: 100px;
+        width: 100%;
+    }
+    .Navbar img{
+        display: inline;
+        height: 30px;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .link{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        position: relative;
+        bottom: 40px;
+    }
+    .link a{
+        display: none;
+    }
+    
+    .link button{
+        border-radius: 5px;
+        padding: auto;
+        margin: auto;
+        height: 50px;
+        width: 100px;
+    }
+    .linkbuttons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    #getstartedbtn{
+        background-color: #F29A02;
+    }
+    #loginbtn{
+        background-color: transparent;
+        border-color: white;
+        margin-right: 10px;
+        color: white;
+    }
+
+ }
+@media (min-width:375px){ }
+@media (min-width:425px){ }
+@media (min-width: 480px) {  }
+@media (min-width: 600px) {  }
+@media (min-width: 801px) {  }
+@media (min-width: 1024px) { }
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Navbar{
+        background-color: #1F39E0;
+    }
+    .Navbar img{
+        display: inline;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .link{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        position: relative;
+        bottom: 50px;
+    }
+    .link a{
+        display: none;
+    }
+    .link button{
+        border-radius: 5px;
+        padding: auto;
+        margin: auto;
+        height: 50px;
+        width: 80px;
+        font-size: smaller;
+    }
+    .linkbuttons{
+        display: flex;
+        flex-direction: row;
+        margin-left: -62px;
+    }
+    #getstartedbtn{
+        background-color: #F29A02;
+    }
+    #loginbtn{
+        background-color: transparent;
+        border-color: white;
+        margin-right: 10px;
+        color: white;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Navbar{
+        background-color: #1F39E0;
+        height: 100px;
+        width: 100%;
+    }
+    .Navbar img{
+        display: inline;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .link{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        position: relative;
+        bottom: 50px;
+    }
+    .link a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 13px;
+        display: flex;
+        
+    }
+    
+    .link button{
+        border-radius: 5px;
+        padding: auto;
+        margin: auto;
+        height: 50px;
+        width: 150px;
+    }
+    .linkbuttons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 250px;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
